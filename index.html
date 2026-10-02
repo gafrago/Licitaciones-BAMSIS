@@ -338,7 +338,7 @@
                 <div class="bg-red-50 border border-red-200 p-6 rounded-lg max-w-lg text-center mt-4">
                     <h3 class="text-red-800 font-bold text-lg mb-2">Error de lectura de archivo</h3>
                     <code class="bg-red-100 text-red-900 p-2 rounded text-xs block mb-4">${mensaje}</code>
-                    <p class="text-slate-700 text-xs">Verifique que el archivo <b>LicBAMSIS2026-2026.xlsx</b> se encuentre en el mismo directorio.</p>
+                    <p class="text-slate-700 text-xs">Verifique que el archivo <b>LicBAMSIS2016-2026.xlsx</b> se encuentre en el mismo directorio.</p>
                 </div>
             `;
             document.getElementById('spinner-subtext').classList.add('hidden');
@@ -347,7 +347,7 @@
         document.addEventListener('DOMContentLoaded', async () => {
             try {
                 // AQUI SE CAMBIA EL NOMBRE DEL ARCHIVO:
-                const excelUrl = 'LicBAMSIS2026-2026.xlsx';
+                const excelUrl = 'LicBAMSIS2016-2026.xlsx';
                 
                 let dataToProcess = null;
                 let isAlreadyClean = false;
